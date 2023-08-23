@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\5W5_Cour_revision.props" />
+</Project>
