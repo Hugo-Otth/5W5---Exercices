@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Cour2ExApi.props" />
+</Project>
