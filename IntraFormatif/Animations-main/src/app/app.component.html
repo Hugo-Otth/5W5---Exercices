@@ -1,0 +1,14 @@
+<div style="padding: 20px">
+  <h1>Animation CSS</h1>
+  <button (click)="shakeMe()" mat-raised-button color="accent" style="margin-right: 10px">Shake</button>
+  <button (click)="bounceMe()" mat-raised-button color="primary" style="margin-right: 10px">Bounce</button>
+  <button (click)="shakeBounceMe()" mat-raised-button color="warn">Shake then Bounce</button>
+  <div [class.bounce-top]="bounce" [class.shake-top]="shake" style="height: 100px; width: 100px; background-color: aqua; margin: 20px"></div>
+</div>
+<div style="padding: 20px">
+  <h1>Animation Angular</h1>
+  <button (click)="mavariable = mavariable - 1" mat-raised-button color="accent" style="margin-right: 10px">Shake</button>
+  <button (click)="mavariable = mavariable + 1" mat-raised-button color="primary" style="margin-right: 10px">Bounce</button>
+  <button (click)="angularShakeBounce()" mat-raised-button color="warn">Shake then Bounce</button>
+  <div [@shake]="mavariable" [@bounce]="mavariable" style="height: 100px; width: 100px; background-color: aqua; margin: 20px"></div>
+</div>

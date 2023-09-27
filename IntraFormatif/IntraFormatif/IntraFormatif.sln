@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntraFormatif", "IntraFormatif.csproj", "{42882C85-24C1-45B1-819F-F07B9520508E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntraFormatifTests", "..\IntraFormatifTests\IntraFormatifTests.csproj", "{6C74AE22-5255-42DD-BB1D-ABF46B5B7847}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42882C85-24C1-45B1-819F-F07B9520508E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42882C85-24C1-45B1-819F-F07B9520508E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42882C85-24C1-45B1-819F-F07B9520508E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42882C85-24C1-45B1-819F-F07B9520508E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C74AE22-5255-42DD-BB1D-ABF46B5B7847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C74AE22-5255-42DD-BB1D-ABF46B5B7847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C74AE22-5255-42DD-BB1D-ABF46B5B7847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C74AE22-5255-42DD-BB1D-ABF46B5B7847}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F6592EA-DB76-46C3-92D5-C0975EDA0B1B}
+	EndGlobalSection
+EndGlobal
